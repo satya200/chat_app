@@ -1,0 +1,8 @@
+typedef enum serv_error
+{
+    EINVALID_SOCK = -10,
+    EINVALID_DOMAIN,
+    EINVALID_ARG_BIND,
+    EINVALID_ARG_LISTEN,
+    EINVALID_ARG_ACCEPT
+}err_t;

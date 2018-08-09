@@ -29,6 +29,7 @@ int main(int argc, char **argv)
     
     len = sizeof(server_addr);
     ret = bind(sock_fd, (const struct sockaddr *)&server_addr, len);
+    perror("bind");
     if (ret < 0) {
         perror("bind");
         close(sock_fd);

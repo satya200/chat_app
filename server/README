@@ -1,0 +1,4 @@
+This Function will create the socket. For argument details please refer
+lib_server.h file.
+
+int iCreate_socket(socket_type_t type, socket_domain_t domain)
